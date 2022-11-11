@@ -1,0 +1,17 @@
+body{
+	background-image: url(https://cdn.dribbble.com/users/4328679/screenshots/14953434/media/f3de9baffc05c770dd4be2f51917b53d.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}	
+p{
+	font-size: 15mm;
+	color: yellow;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14YUOxhx829EjhcGzNpYF-vaDjtlDLr0zRRuZL7P-BCNaMGm_AseLrePB-v1vMh8XHi4&usqp=CAU);
+}
+div{
+	width: 400px;
+	height: 400px;	
+	margin-left: 100px;
+	border: ridge 30px yellow;
+}

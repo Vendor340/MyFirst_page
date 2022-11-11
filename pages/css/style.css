@@ -1,0 +1,37 @@
+body{
+	background-color: rgb(0, 128, 255);
+}
+p{
+	background-color: rgb(215, 200, 0);
+	font-size: 50px;
+	font-family: cursive;
+}
+table{
+	border: double 2px rgb(255, 128, 0);
+	width: 50%;
+	border-collapse: separate;
+}
+td, th{
+	width: 25%;
+	border: solid 2px rgb(255, 124, 120);
+	height: 1cm;
+}
+caption{
+	font-family: "Roboto Mono", monospace;
+	font-size: 40px;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-color: lightseagreen;
+	font-size: 1.5em;
+	color: yellow;
+	text-transform: uppercase;
+}
+tr:nth-child(even){
+	background-color: blue;
+}
+th{
+	background-color: yellow;
+}
