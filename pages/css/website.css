@@ -6,13 +6,13 @@ header{
 #menu {
 	width: 20%;
 	background-color: grey;
-	height: 50%;
+	height: 1100px;
 	float: left;
 }
 #content {
 	width:  80%;
 	background-color: lightgray;
-	height: 50%;
+	height: 1100px;
 	float: left;
 }
 footer{
