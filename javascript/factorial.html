@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet"> 
+	<style>
+		p{
+			font-size:30px;
+			color:#dbfc03;
+			background-color: #0307fc;
+			font-family:"Rubik Vinyl", cursive;
+			text-align:center;
+		}
+		#res {
+				color:#fc0d19;
+				font-weight:1000;
+		}
+		
+	</style>
+</head>
+<body>
+	<p>Factorial number</p>
+</body>
+<script>
+		
+		let number = prompt("What's number you want to enter?: "), res = 1;
+		let array_color = ["#cdf007", "#0804de"];
+		let sentence = `Factorial ${number} is: `, i = 0
+		for (count = 1; count<parseInt(number)+1; count++){
+			res*=count
+		}
+		for (c = 0; c<sentence.length; c++){
+			if (i ==2){
+				i = 0
+			}
+			if (parseInt(sentence[c])){
+					document.write("<span style = 'color:#05e374; font-weight=1000; font-size:20px;'>"+sentence[c]+"</span>")
+			}
+			else{
+				document.write(`<span style='color:${array_color[i]};font-weight=1000; font-size:20px;'>${sentence[c]}</span>`)
+		}
+					
+			i++;
+		}
+
+		document.write(`<span id = res>${res}</span>`)
+</script>
+</html>

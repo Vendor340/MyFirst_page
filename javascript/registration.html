@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
+		<style>
+			#main{
+				font-size: 30px;
+				color:#c6de14;
+				background-color:#150fd4;
+				text-align: center;
+			}
+			p{
+				font-family: 'Nerko One', cursive;
+				font-size:20px;
+			}
+			#cancel{
+				color:#e6150e;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<p id = "main">Registration</p>
+		
+	</body>
+	<script>
+		while (true){
+			let user_name = prompt("Enter your login, please: ");
+			if (user_name == null){
+						document.write("<p>"+"Enter is"+" "+"<span id = 'cancel'>canceled</span>"+ "!"+"</p>");
+						break
+					}
+			
+			
+			else if (user_name != "User"){
+					alert("I don't know this user!");
+			}
+			else {
+				while (true){
+					let user_password = prompt("Enter user's password: ");
+					if (user_password == null){
+						document.write("<p>"+"Enter is"+" "+"<span id = 'cancel'>canceled</span>"+ "!"+"</p>");
+						break
+					}
+					else if(user_password != "password"){
+						alert("Incorrect password!")
+					}else{
+						document.write("<p>"+"You "+"are "+"<span style='color:red;'>w</span>"+"<span style='color:green;'>e</span>"+"<span style='color:blue;'>l</span>"+"<span style='color:yellow;'>c</span>"+"<span style='color:violet;'>o</span>"+"<span style='color:orange;'>m</span>"+"<span style='color:brown;'>e</span>"+"!"+"</p>");
+						break
+					}
+				}
+				break
+			}
+		}
+	</script>
+</html>

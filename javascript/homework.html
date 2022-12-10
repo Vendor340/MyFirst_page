@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		p {
+			color:#aa2300;
+			font-size:30px;
+			font-family:"cursive";
+			background-color: #0000ff;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<p>Site with Javascript</p>
+</body>
+<script>
+	/*let n = 2;
+	n*=3+5;
+	alert(n);
+	let a = 2;
+	n = 1 + (a*=2);
+	alert(n);*/
+
+	/*let a = 1, b = 1, c, d;
+	//Префіксна форма спершу збільшує a до 2, а потім повертає значення a
+	с = ++a; alert(c); // 2
+	//Постфіксна форма спершу повертає значення b, а потім значення збільшує до 2
+	d = b++; alert(d); // 1
+	//В виразі спочатку збільшується a до 3, а потім порядок операцій, як в арифметиці
+	c = (2+ ++a); alert(c);// 5
+	//В виразі спочатку іде порядок, як в арифметиці, а потім значення b збільшується до 3
+	d = (2+ b++); alert(d);// 4
+	alert(a);//3
+	alert(b);//3*/
+
+	/*let a ="Мама", b ="ми", c ="ла", d = "ра", e="му";
+	alert(a+" "+b+c+" "+d+e);*/
+	/*let a = true, b = false;
+	let number_1 = 12, number_2 = 10;
+	alert(a == b)
+	alert(number_1 >= number_2)*/
+	//let user_name = prompt("Input your name: ", "Vlad");
+	//alert("Hello, "+user_name)
+	//let isDiscount = confirm("Do you need any sale?")
+	//alert(isDiscount)
+	/*let a = +prompt("Enter a side: ", ""), b = +prompt("Enter b side: ", "");
+	let P =2*(a+b), S = a*b
+	alert(P)
+	alert(S)
+	document.write("P = "+P+"<br>")
+	document.write("S = "+S)*/
+	let spaceYear = prompt("When Youriy Gagarin flew to the space?: ")
+	if (spaceYear == null){
+		alert("Good bye!")
+	}
+	if (spaceYear > 1961) {
+		alert("In that time we have flown to the space");
+	}else if (spaceYear < 1961) {
+		alert("We will fly to the space in future")
+	}else if (spaceYear == 1961) {
+	alert("You're right!");	
+	}else {
+		alert("Can you enter number!");
+	}
+	
+</script>
+</html>

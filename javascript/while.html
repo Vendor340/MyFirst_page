@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+	<style>
+		p{
+			color: #cdf007;
+			font-size:40px;
+			background-color:#0804de;
+			font-weight:800;
+			font-family:"Indie Flower", cursive;
+			text-align:center;
+		}
+		#count{
+			color:#e80c29;
+			font-family:"Permanent Marker", cursive;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<p>We are learning loops</p>
+</body>
+<script>
+	/*
+	let count=0;
+	while (count<10) {
+		count++;
+		document.write("<span id = count>"+count+"</span><br>");
+	}
+	let a = -4;
+	while(a){
+		alert(a)
+		a--;
+		if (a == -10){
+			break
+		}
+	}
+	let d = 0;
+	do {
+		alert(d);
+		d++;
+	}while(d==1);
+	*/
+
+	/*
+	let array = ["#32a852", "#1c22c7", "#daf013", "#e87807", "#d12c0a", "#fc0362"];
+	let i=0;
+	let count = 10;
+	while (count<13){
+		if (count.toString().length == 2){
+			let num = count.toString();
+			alert(num)
+			document.write(`<span style='color:${array[count-10]}; font-weight=900; font-size:20px;'>`+num.charAt(i)+`</span>`+`<span style='color:${array[count-9]};font-weight=900; font-size:20px;'>`+num.charAt(i+1)+`</span>`+"<br>");
+		}
+		count++;
+	}*/
+	let sentence = "Glory to Ukraine";
+	let array_color = ["#cdf007", "#0804de"], i = 0;
+	let enter_times = prompt("Enter times: ");
+	for (c = 0; c<enter_times; c++){
+		for (count=0; count<sentence.length; count++){
+			if (i == 2){
+					i = 0;
+				}
+			if (sentence[count] == " "){
+				document.write(" ");
+			}
+			else{
+				
+				document.write(`<span style='color:${array_color[i]}; font-weight:900; font-size:20px;'>`+sentence[count]+"</span>")
+				
+			}
+			i++;
+		}
+		document.write("<br>")
+	}
+		
+</script>
+</html>
