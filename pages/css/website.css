@@ -9,6 +9,13 @@ header{
 	height: 1100px;
 	float: left;
 }
+.marker {
+	list-style-type:"👉";
+	padding-inline-start:1ch;
+	list-style-position:outside;
+	background-color:rgb(205, 200, 0);
+		
+}
 #content {
 	width:  80%;
 	background-color: lightgray;
