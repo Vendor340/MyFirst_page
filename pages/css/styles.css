@@ -1,0 +1,45 @@
+#first, #second {
+	width: 500px;
+	height: 100px;
+	border: dotted 10px darkgoldenrod;
+
+}
+#third, #fourth{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	border: dashed 5px green;
+	background-color: rgb(100, 210, 0);
+}
+#fourth {
+	background-color: darkgreen;
+	border-top-style: double;
+	border-bottom-style: double;
+}
+.p1 {
+	font-weight: 600;
+	font-size: 30px;
+	background-color: blue;
+	color: yellow;
+	text-align: center;
+	border: dotted 5px yellow;
+}
+.p2 {
+	font-weight: 600;
+	font-size: 30px;
+}
+p.blocktext{
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+}
+div.example{ border: #603 dotted;padding: 0.5em; margin: 1em 2em;}
+img{
+	margin: auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 25%;
+	box-shadow: 10px -10px #111;
+	text-align: center;
+}
