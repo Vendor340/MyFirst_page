@@ -53,19 +53,22 @@
 	alert(S)
 	document.write("P = "+P+"<br>")
 	document.write("S = "+S)*/
-	let spaceYear = prompt("When Youriy Gagarin flew to the space?: ")
-	if (spaceYear == null){
-		alert("Good bye!")
-	}
-	if (spaceYear > 1961) {
-		alert("In that time we have flown to the space");
-	}else if (spaceYear < 1961 && spaceYear != null) {
-		alert("We will fly to the space in future")
-	}else if (spaceYear == 1961) {
-	alert("You're right!");	
-	}else if (!parseInt(spaceYear) && spaceYear != null) {
-		alert("Can you enter number!");
-	}
+	while true:
+		let spaceYear = prompt("When Youriy Gagarin flew to the space?: ")
+		if (spaceYear == null){
+			alert("Good bye!")
+			break
+		}
+		if (spaceYear > 1961) {
+			alert("In that time we have flown to the space");
+		}else if (spaceYear < 1961 && spaceYear != null) {
+			alert("We will fly to the space in future")
+		}else if (spaceYear == 1961) {
+			alert("You're right!");	
+			break
+		}else if (!parseInt(spaceYear) && spaceYear != null) {
+			alert("Can you enter number!");
+		}
 	
 </script>
 </html>
